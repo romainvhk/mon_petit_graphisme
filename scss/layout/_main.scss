@@ -1,0 +1,89 @@
+.background {
+    background-image: url(../../img/triangles-gfd932f69c_1280.png);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        background-color: rgb(45, 0, 128);
+        text-decoration: none;
+        color: white;
+        font-size: 1.2em;
+        padding: 20px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 2.5em;
+    }
+    
+    .bxs-cube {
+    color: rgb(99, 1, 179);
+    }
+
+}
+
+section {
+    padding: 2px 20px;
+    text-align: center;
+
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
+.section__article {
+        display: flex;
+        flex-direction: column;
+
+    i {
+        font-size: 4em;
+        margin: 0px 0px;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-size: 1.4em;
+        margin: 0px 0px;
+    }
+
+    p {
+        font-size: 1em;
+        padding: 0px 20px;
+    }
+}
+
+.section__avis {
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+    .avis__client {
+        opacity: 50%;
+    }
+}
+
+@media screen and (min-width: 830px) {
+     .section__article {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    article {
+        width: 50%;
+    }
+
+    .section__avis {
+        padding: 0px 100px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .section__article {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}
